@@ -1,0 +1,96 @@
+.start-order-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+    background-color: #202124;
+}
+.start-order-container h1 {
+    color: white;
+    font-size: 18px;
+}
+.order-button {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(228, 0, 43);
+    padding: 15px 45px;
+    margin-left: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.order-button:hover {
+    background-color: #CD0027;
+}
+.kfc-poster {
+    width: 100%;
+}
+.heading-browse {
+    display: flex;
+    justify-content: start;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+.heading-browse h1 {
+    font-size: 40px;
+}
+.horizontal-line {
+    height: 80px;
+    width: 60%;
+    border-top: 2px solid rgb(227, 227, 227);
+    margin-top: 52px;
+    margin-left: 35px;
+}
+.menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 32px;
+    row-gap: 32px;
+    margin-left: 285px;
+    margin-right: 180px;
+    margin-bottom: 110px;
+}
+.menu-items-container,
+.all-menu-items-container {
+    background-color: rgb(248, 247, 245);
+}
+.menu-items-picture  {
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.menu-items-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.menu-items-name a {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(32, 33, 36);
+    text-decoration: none;
+}
+.all-menu-picture {
+    width: 79%;
+    margin-left: 35px;
+    margin-top: 50px;
+}.all-menu-items-name {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+}
+.all-menu-items-name a {
+    color: rgb(32, 33, 36);
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+}
+.all-menu-items-name img {
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
